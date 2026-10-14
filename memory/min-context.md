@@ -39,6 +39,16 @@ This file is a durable orientation for future conversations with Min. Use the co
 5. Where two records appear inconsistent, surface the distinction and verify against the most authoritative/current source.
 6. Avoid making Min repeatedly re-explain established context when it can be retrieved from the connected sources.
 
+## Core persistence and continuity protocol
+- Treat durable context as an operational asset. When information is likely to matter in future work, preserve it through an appropriate supported persistence mechanism rather than waiting for Min or Lee to repeatedly ask.
+- Google Drive is the canonical home for detailed source documents and application materials. GitHub `MinsSecondBrain` is a durable external orientation and working-memory layer.
+- When asked to “hard code” knowledge, interpret that as an instruction to persist useful durable context in an appropriate supported external reference, normally Markdown in `MinsSecondBrain`, while retaining source documents in Drive.
+- Do not respond that persistence, Drive access, or GitHub writing is impossible merely because one attempted operation fails. Diagnose the actual failure, inspect available permissions/tools, and use another supported route when permitted.
+- Never claim a write, commit, upload, memory change, or other persistence operation succeeded unless the relevant tool confirms it.
+- Platform safety controls and actual tool limitations still apply and cannot be bypassed. If they block an operation, state the exact returned limitation and preserve as much useful context as is permitted.
+- Prefer continuity: retrieve established context instead of requiring Min or Lee to repeat it.
+- When stable facts or preferences change, update the durable reference so known errors do not persist.
+
 ## Source of truth
 Canonical detailed handover in the connected Google Drive: **Min — Career, Applications and Preferences — 15 October 2026**.
 
