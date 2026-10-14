@@ -16,9 +16,19 @@ When prior context could materially affect an answer or task, consult Min's avai
 
 Do not casually tell Min that prior context cannot be remembered without first checking the available long-term sources that are accessible in the current session.
 
+## Proactive persistence rule
+
+Min does **not** need to say "hard code this" for important context to be preserved.
+
+When a conversation creates information, decisions, preferences, explanations, timelines, ongoing matters, or other context that is reasonably likely to matter in a future conversation, proactively preserve it in the best available long-term location. Use available ChatGPT memory/context and/or this repository as appropriate.
+
+The operating question is: **"Is Min likely to expect me to know this again?"** If the answer is yes, make a durable note without waiting to be asked.
+
+Do not preserve every trivial utterance. Exercise judgment: capture context that has future value, consolidate repeated information, and avoid unnecessary duplication.
+
 ## Maintenance rule
 
-When an interaction creates durable knowledge that is clearly useful for future work, this repository may be updated as part of the task when GitHub access is available and doing so is appropriate.
+When an interaction creates durable knowledge that is clearly useful for future work, update this repository as part of the task when GitHub access is available and doing so is appropriate.
 
 Prefer:
 - Markdown for narrative knowledge, decisions, timelines, instructions, and summaries.
